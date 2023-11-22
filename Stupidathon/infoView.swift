@@ -8,8 +8,9 @@
 import SwiftUI
 import AVKit
 
+
 class SoundManager {
-    
+
     static let instance = SoundManager()
     
     var player: AVAudioPlayer?
@@ -29,6 +30,7 @@ class SoundManager {
 
 struct infoView: View {
 
+    
     var body: some View {
         NavigationView {
             VStack {
@@ -42,7 +44,11 @@ struct infoView: View {
 
             }
             .navigationTitle("Introduction")
+            
+            
+            
         }
+        
     }
 }
 

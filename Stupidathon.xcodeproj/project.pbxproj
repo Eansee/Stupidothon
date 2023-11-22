@@ -76,6 +76,7 @@
 		6FDACE7C2B0D91880058E1B4 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				6FDACE902B0DC7890058E1B4 /* picture */,
 				6FDACE7D2B0D91880058E1B4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -88,6 +89,13 @@
 				6FDACE8D2B0DC4810058E1B4 /* Welcome.m4a */,
 			);
 			path = audios;
+			sourceTree = "<group>";
+		};
+		6FDACE902B0DC7890058E1B4 /* picture */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = picture;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

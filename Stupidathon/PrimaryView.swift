@@ -8,8 +8,28 @@
 import SwiftUI
 
 struct PrimaryView: View {
+    @State private var offset = CGSize.zero //initial point, value 0
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            ZStack {
+                Image("Duck")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 200, height: 200)
+                    .opacity(0.8)
+                    .offset(offset)
+                    .gesture(DragGesture().onChanged { gesture in
+                        self.offset = gesture.translation //enable the image to moved around
+                    })
+                    .animation(.spring()) //smoother the animation
+                
+                VStack {
+                    Text("Drag the duck")
+                        .padding()
+                }
+            }
+        }
     }
 }
 
