@@ -42,7 +42,7 @@ struct ContentView: View {
                         .tabItem{
                             VStack {
                                 Image(systemName: "tray.fill")
-                                Text("TBD")
+                                Text("Date")
                             }
                         }
                 }

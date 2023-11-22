@@ -25,8 +25,10 @@ struct PrimaryView: View {
                     .animation(.spring()) //smoother the animation
                 
                 VStack {
+                    Spacer()
                     Text("Drag the duck")
                         .padding()
+                        
                 }
             }
         }

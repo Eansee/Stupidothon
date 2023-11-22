@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5623FC86A056A9D985492C64 /* Pods_Stupidathon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E51AAA6C5480940511A02C4 /* Pods_Stupidathon.framework */; };
 		6FDACE772B0D91860058E1B4 /* StupidathonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDACE762B0D91860058E1B4 /* StupidathonApp.swift */; };
 		6FDACE792B0D91860058E1B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDACE782B0D91860058E1B4 /* ContentView.swift */; };
 		6FDACE7B2B0D91880058E1B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FDACE7A2B0D91880058E1B4 /* Assets.xcassets */; };
@@ -19,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E51AAA6C5480940511A02C4 /* Pods_Stupidathon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stupidathon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AC1F88B96A059CCDD06EFB9 /* Pods-Stupidathon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stupidathon.release.xcconfig"; path = "Target Support Files/Pods-Stupidathon/Pods-Stupidathon.release.xcconfig"; sourceTree = "<group>"; };
 		6FDACE732B0D91860058E1B4 /* Stupidathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stupidathon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FDACE762B0D91860058E1B4 /* StupidathonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StupidathonApp.swift; sourceTree = "<group>"; };
 		6FDACE782B0D91860058E1B4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -29,6 +32,7 @@
 		6FDACE882B0DA99E0058E1B4 /* SecondaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryView.swift; sourceTree = "<group>"; };
 		6FDACE8B2B0DC3650058E1B4 /* Welcome to this app where it is useless yet entertaining.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Welcome to this app where it is useless yet entertaining.m4a"; sourceTree = "<group>"; };
 		6FDACE8D2B0DC4810058E1B4 /* Welcome.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Welcome.m4a; sourceTree = "<group>"; };
+		FDDD61A4E87CAEA0976C3E2E /* Pods-Stupidathon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stupidathon.debug.xcconfig"; path = "Target Support Files/Pods-Stupidathon/Pods-Stupidathon.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5623FC86A056A9D985492C64 /* Pods_Stupidathon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +52,8 @@
 			children = (
 				6FDACE752B0D91860058E1B4 /* Stupidathon */,
 				6FDACE742B0D91860058E1B4 /* Products */,
+				7FD42CB0FAA6F83CF68D45B6 /* Pods */,
+				8801AA099E37DC3585316047 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,6 +105,24 @@
 			path = picture;
 			sourceTree = "<group>";
 		};
+		7FD42CB0FAA6F83CF68D45B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FDDD61A4E87CAEA0976C3E2E /* Pods-Stupidathon.debug.xcconfig */,
+				5AC1F88B96A059CCDD06EFB9 /* Pods-Stupidathon.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8801AA099E37DC3585316047 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E51AAA6C5480940511A02C4 /* Pods_Stupidathon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -105,9 +130,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6FDACE812B0D91880058E1B4 /* Build configuration list for PBXNativeTarget "Stupidathon" */;
 			buildPhases = (
+				E86749892E832716F92EFF2F /* [CP] Check Pods Manifest.lock */,
 				6FDACE6F2B0D91860058E1B4 /* Sources */,
 				6FDACE702B0D91860058E1B4 /* Frameworks */,
 				6FDACE712B0D91860058E1B4 /* Resources */,
+				8651E60214D62272A8F37A2C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -164,6 +191,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8651E60214D62272A8F37A2C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Stupidathon/Pods-Stupidathon-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Stupidathon/Pods-Stupidathon-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Stupidathon/Pods-Stupidathon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E86749892E832716F92EFF2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Stupidathon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6FDACE6F2B0D91860058E1B4 /* Sources */ = {
@@ -297,6 +366,7 @@
 		};
 		6FDACE822B0D91880058E1B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDDD61A4E87CAEA0976C3E2E /* Pods-Stupidathon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -325,6 +395,7 @@
 		};
 		6FDACE832B0D91880058E1B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AC1F88B96A059CCDD06EFB9 /* Pods-Stupidathon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
