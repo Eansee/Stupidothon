@@ -17,7 +17,7 @@ class SoundManager {
     
     func playSound() {
         
-        guard let url = Bundle.main.url(forResource: "Welcome", withExtension: ".m4a") else { return }
+        guard let url = Bundle.main.url(forResource: "volume", withExtension: ".m4a") else { return }
         
         do {
            player = try AVAudioPlayer(contentsOf: url)
@@ -34,16 +34,16 @@ struct infoView: View {
     var body: some View {
         NavigationView {
             VStack {
-                Text("Welcome to this app where it is useless yet entertaining")
+                Text("testing volume...")
                 
-                Button("Play") {
+                Button("click this") {
                     SoundManager.instance.playSound()
                 }
                 .accentColor(.green)
                 
 
             }
-            .navigationTitle("Introduction")
+            .navigationTitle("testing")
             
             
             
