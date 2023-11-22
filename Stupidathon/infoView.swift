@@ -43,7 +43,7 @@ struct infoView: View {
                 
 
             }
-            .navigationTitle("testing")
+            .navigationTitle("volume tester")
             
             
             
