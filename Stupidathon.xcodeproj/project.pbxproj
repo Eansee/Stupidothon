@@ -14,6 +14,8 @@
 		6FDACE852B0DA6140058E1B4 /* infoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDACE842B0DA6140058E1B4 /* infoView.swift */; };
 		6FDACE872B0DA9850058E1B4 /* PrimaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDACE862B0DA9850058E1B4 /* PrimaryView.swift */; };
 		6FDACE892B0DA99E0058E1B4 /* SecondaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDACE882B0DA99E0058E1B4 /* SecondaryView.swift */; };
+		6FDACE8C2B0DC3650058E1B4 /* Welcome to this app where it is useless yet entertaining.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6FDACE8B2B0DC3650058E1B4 /* Welcome to this app where it is useless yet entertaining.m4a */; };
+		6FDACE8E2B0DC4810058E1B4 /* Welcome.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6FDACE8D2B0DC4810058E1B4 /* Welcome.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		6FDACE842B0DA6140058E1B4 /* infoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infoView.swift; sourceTree = "<group>"; };
 		6FDACE862B0DA9850058E1B4 /* PrimaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryView.swift; sourceTree = "<group>"; };
 		6FDACE882B0DA99E0058E1B4 /* SecondaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryView.swift; sourceTree = "<group>"; };
+		6FDACE8B2B0DC3650058E1B4 /* Welcome to this app where it is useless yet entertaining.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Welcome to this app where it is useless yet entertaining.m4a"; sourceTree = "<group>"; };
+		6FDACE8D2B0DC4810058E1B4 /* Welcome.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Welcome.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,7 @@
 				6FDACE842B0DA6140058E1B4 /* infoView.swift */,
 				6FDACE862B0DA9850058E1B4 /* PrimaryView.swift */,
 				6FDACE882B0DA99E0058E1B4 /* SecondaryView.swift */,
+				6FDACE8A2B0DC2F00058E1B4 /* audios */,
 				6FDACE7A2B0D91880058E1B4 /* Assets.xcassets */,
 				6FDACE7C2B0D91880058E1B4 /* Preview Content */,
 			);
@@ -74,6 +79,15 @@
 				6FDACE7D2B0D91880058E1B4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6FDACE8A2B0DC2F00058E1B4 /* audios */ = {
+			isa = PBXGroup;
+			children = (
+				6FDACE8B2B0DC3650058E1B4 /* Welcome to this app where it is useless yet entertaining.m4a */,
+				6FDACE8D2B0DC4810058E1B4 /* Welcome.m4a */,
+			);
+			path = audios;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +150,8 @@
 			files = (
 				6FDACE7E2B0D91880058E1B4 /* Preview Assets.xcassets in Resources */,
 				6FDACE7B2B0D91880058E1B4 /* Assets.xcassets in Resources */,
+				6FDACE8C2B0DC3650058E1B4 /* Welcome to this app where it is useless yet entertaining.m4a in Resources */,
+				6FDACE8E2B0DC4810058E1B4 /* Welcome.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
