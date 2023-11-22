@@ -11,6 +11,9 @@
 		6FDACE792B0D91860058E1B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDACE782B0D91860058E1B4 /* ContentView.swift */; };
 		6FDACE7B2B0D91880058E1B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FDACE7A2B0D91880058E1B4 /* Assets.xcassets */; };
 		6FDACE7E2B0D91880058E1B4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FDACE7D2B0D91880058E1B4 /* Preview Assets.xcassets */; };
+		6FDACE852B0DA6140058E1B4 /* infoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDACE842B0DA6140058E1B4 /* infoView.swift */; };
+		6FDACE872B0DA9850058E1B4 /* PrimaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDACE862B0DA9850058E1B4 /* PrimaryView.swift */; };
+		6FDACE892B0DA99E0058E1B4 /* SecondaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDACE882B0DA99E0058E1B4 /* SecondaryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		6FDACE782B0D91860058E1B4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6FDACE7A2B0D91880058E1B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6FDACE7D2B0D91880058E1B4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6FDACE842B0DA6140058E1B4 /* infoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infoView.swift; sourceTree = "<group>"; };
+		6FDACE862B0DA9850058E1B4 /* PrimaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryView.swift; sourceTree = "<group>"; };
+		6FDACE882B0DA99E0058E1B4 /* SecondaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				6FDACE762B0D91860058E1B4 /* StupidathonApp.swift */,
 				6FDACE782B0D91860058E1B4 /* ContentView.swift */,
+				6FDACE842B0DA6140058E1B4 /* infoView.swift */,
+				6FDACE862B0DA9850058E1B4 /* PrimaryView.swift */,
+				6FDACE882B0DA99E0058E1B4 /* SecondaryView.swift */,
 				6FDACE7A2B0D91880058E1B4 /* Assets.xcassets */,
 				6FDACE7C2B0D91880058E1B4 /* Preview Content */,
 			);
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FDACE852B0DA6140058E1B4 /* infoView.swift in Sources */,
 				6FDACE792B0D91860058E1B4 /* ContentView.swift in Sources */,
+				6FDACE892B0DA99E0058E1B4 /* SecondaryView.swift in Sources */,
 				6FDACE772B0D91860058E1B4 /* StupidathonApp.swift in Sources */,
+				6FDACE872B0DA9850058E1B4 /* PrimaryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

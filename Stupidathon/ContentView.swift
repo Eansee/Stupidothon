@@ -12,6 +12,7 @@ struct ContentView: View {
     var isDark = false
     var body: some View {
         VStack {
+            
             Toggle("Turn on dark mode", isOn: $isDark)
                 .padding(.horizontal)
                 .onChange(of: isDark) { newValue in
@@ -20,6 +21,30 @@ struct ContentView: View {
                     
                 .preferredColorScheme(isDark ? .dark: .light)
             Spacer()
+            
+            TabView {
+                infoView()
+                    .tabItem {
+                        VStack {
+                            Image(systemName: "folder.fill")
+                            Text("Info")
+                        }
+                    }
+                 PrimaryView()
+                    .tabItem {
+                        VStack {
+                            Image(systemName: "person.fill")
+                            Text("TBD")
+                        }
+                    }
+                 SecondaryView()
+                    .tabItem{
+                        VStack {
+                            Image(systemName: "tray.fill")
+                            Text("TBD")
+                         }
+                    }
+                }
             
             }
         }
