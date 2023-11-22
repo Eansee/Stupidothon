@@ -8,16 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    @AppStorage("isDarkMode") private
+    var isDark = false
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Toggle("Turn on dark mode", isOn: $isDark)
+                .padding(.horizontal)
+                .onChange(of: isDark) { newValue in
+                    print("Dark mode is \(newValue ? "on" : "off")")
+                }
+                    
+                .preferredColorScheme(isDark ? .dark: .light)
+            Spacer()
+            
+            }
         }
-        .padding()
     }
-}
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
